@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-Hans" lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Autoset-1K Dataset Download Page</title>
+    <meta name="robots" content="all" />
+    <meta name="author" content="Yalong Bai">
+    <meta http-equiv="X-UA-Compatible" content="IE=100" />
+    <link rel="stylesheet" type="text/css" href="/css/autoset.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/reset.css"/>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-39157716-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+
+    </script>
+    <script src="/javascripts/jquery/1.5.2/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="outline"></div>
+    <div class="container">
+  		<div id="content">
+<div class="about">
+  <div class="profile">
+    <div class="info" width="100%">
+      <div class="first-name">Autoset-1K</div>
+      <p class="extra-info">A dataset constructed from large scale Click-through Logs automaticly by using Deep Neural Network.</p>
+    </div>
+  </div>
+  <div class="about-page">
+    <div class="overview">
+      <h1>Overview</h1>
+    <img src="/autoset_overview.png" width="100%" alt>
+    <h2>t-SNE visualization of learned word representations: (high resolution)</h2>
+    <img src="/tsne_word.png" width="100%" alt>
+    <h2>t-SNE visualization of learned image representations: (high resolution)</h2>
+    <img src="/tsne_image.png" width="100%" alt>
+    </div>
+    <div class="line-2">
+      <h1>Download</h1>
+      <h2><a href="http://1drv.ms/1NHxmi3">1. Autoset-1K</a></h2>
+      <li>For each category, a set of image ID in <a href="http://clickture.blob.core.windows.net/split?restype=container&comp=list">Clickture-Full</a> is given. You can extract Autoset-1K image dataset according to our given image ID from Click-Full which contains 40 million of images.</li>
+      <li>You must accept the <a href="http://web-ngram.research.microsoft.com/GrandChallenge/MSR-LA%20Data-MSR%20Bing%20Image%20Challenge.pdf">enclosed License Terms </a> of Bing-MSR Image Annotation Challenge Data in order to use Click-Full dataset. You are not allowed to further distribute Autoset-1K and Click-Full dataset.</li>
+      <h2><a href="http://1drv.ms/1MqSvqR">2. Visual based Word Embeddings</a></h2>
+      <h2><a href="http://1drv.ms/1OCgnMM">3. KNN results of Visual based Word Embeddings</a></h2>
+    </div>
+   <!--div class="line-3">
+     <h1>About</h1>
+  </div-->
+
+<!--
+    <div class="line-5">
+      <section id="internet-footprint">
+      <h1>Downloads</h1>
+      <p><a href="/download1">Parser</a> - parser.<br />
+      <a href="http://www.pixiv.net/member.php?id=4798189">SVM</a> - write something.
+      </p>
+      </section>
+    </div>
+-->
+  </div>
+</div>
+  		</div>
+    </div>
+  </body>
+</html>

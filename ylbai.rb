@@ -34,4 +34,7 @@ class YalongBai< Sinatra::Application
     erb :autoset
   end
 
+  get "/autoda" do
+    erb :autoDA
+  end
 end
